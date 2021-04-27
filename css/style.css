@@ -110,13 +110,12 @@ a {
 	text-decoration: none !important;
 	color: #232323;
 	transition: color 0.3s ease;
-    padding-right: 50px;
 }
 
 #menuToggle {
 	display: block;
 	position: absolute;
-	top: 14px;
+	top: 15px;
 	right: 50px;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -177,11 +176,12 @@ a {
 
 #menu {
 	position: absolute;
-	width: 300px;
+	width: 200px;
+    height: 800px;
 	margin: -100px 0 0 0;
 	padding: 50px;
 	padding-top: 125px;
-	right: -100px;
+	right: -50px;
 	background: #ededed;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
@@ -220,6 +220,12 @@ a {
     {
         display: none;
     }
+    
+    a
+    {
+        padding-right: 50px;
+    }
+    
     
     .nav
     {
